@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(26, 26, 26);
+  height: 700px;
+  background-color: rgb(20, 20, 20); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom, rgb(23, 23, 23), aqua);
+}
+    
+
+.paragraph1{
+    color: rgb(39, 242, 242);
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paragraph2{
+color: rgb(39, 242, 242);
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paragraph3{
+color: rgb(39, 242, 242);
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paragraph4{
+color: rgb(39, 242, 242);
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paragraph5{
+   color: rgb(39, 242, 242);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.image2{
+align-items: end
+}
+
+.title {
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.link{
+    color: rgb(96, 254, 254);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.idek{
+    height: 30; width: 30;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: lightblue;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: darkcyan;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: lightblue;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1{
+    background-color: rgb(2, 2, 50);
+    color: rgb(243, 240, 240);
+}
